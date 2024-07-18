@@ -1,0 +1,6 @@
+Create a form for signup that asks for the follwoing details
+
+1. First name and Last name
+2. Username
+3. Email address
+4. Password

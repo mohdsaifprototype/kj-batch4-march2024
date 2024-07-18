@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables | HTML</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        font-size: 2rem;
+      }
+      table > tbody > tr:nth-child(odd) {
+        background-color: aqua;
+      }
+      tfoot {
+        background-color: #6e8383;
+      }
+      thead {
+        background-color: #a9a9a9;
+        text-align: left;
+      }
+      tfoot{
+        text-align: center;
+      }
+      table * {
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tables in HTML</h1>
+    <table style="border-collapse: collapse">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>City</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mohd Saif</td>
+          <td>23</td>
+          <td>Bihar</td>
+        </tr>
+        <tr>
+          <td>Sparsh Sharma</td>
+          <td>21</td>
+          <td>UP</td>
+        </tr>
+        <tr>
+          <td>Shweta Raj</td>
+          <td rowspan="2">Unknown</td>
+          <td>Bihar</td>
+        </tr>
+        <tr>
+          <td>Ayush Dubey</td>
+          <td>Banaras</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td colspan="2">4</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

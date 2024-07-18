@@ -1,0 +1,24 @@
+/* Simple Selectors */
+/* 1. Unviersal Selector: A universal selector—also known as a wildcard—matches any element.
+e.g., */
+* {
+  box-sizing: border-box;
+}
+
+/* 2. Type/Element Selector: A type selector matches a HTML element directly. 
+e.g., */
+body {
+  background-color: antiquewhite;
+}
+
+/* 3. Class selector: A HTML element can have one or more items defined in their class attribute. The class selector matches any element that has that class applied to it.
+e.g., */
+.my-class {
+  color: red;
+}
+
+/* 4. ID selector: An HTML element with an id attribute should be the only element on a page with that ID value. You select elements with an ID selector like this.
+e.g., */
+#rad {
+  border: 1px solid blue;
+}

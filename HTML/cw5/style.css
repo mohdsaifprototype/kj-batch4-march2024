@@ -1,0 +1,11 @@
+body{
+	background-color: #ff1681;
+}
+section {
+	background-color: magenta;
+	color: yellow;
+}
+div {
+	background-color: orange;
+	color: blue;
+}
